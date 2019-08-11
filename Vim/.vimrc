@@ -1,0 +1,1 @@
+/home/vitrioil//.vimrc
