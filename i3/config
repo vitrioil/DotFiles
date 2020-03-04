@@ -174,12 +174,6 @@ client.unfocused          #b705f7   #002b36     #586e75   #b705f7	#b705f7
 client.urgent             #dc322f   #dc322f     #fdf6e3   #b705f7	#b705f7
 
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-#bar {
-#        status_command i3blocks -c /home/vitrioil/.config/i3/i3blocks.conf i3status
-#}
-#
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Resizing by 1
@@ -225,7 +219,7 @@ workspace $ws2 gaps outer 0
 
 bindsym $mod+Shift+v	exec xcalib -invert -alter
 
-exec feh --bg-scale /home/vitrioil/Pictures/Wallpapers/dark_mountains.png
+exec feh --bg-scale ~/Pictures/Wallpapers/dark_purple_space.jpg
 exec_always compton -f --blur-background
 
 for_window [class="FXTerm"] floating enable

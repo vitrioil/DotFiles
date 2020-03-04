@@ -1,7 +1,6 @@
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
-alias android="sh /opt/android-studio/bin/studio.sh"
 alias pingg="ping www.google.com -c 3"
 alias py3="python3"
 alias p3="python3 -m pip install --user"
@@ -27,9 +26,7 @@ alias vtc="vim ~/.tmux.conf"
 alias i3c="vim ~/.config/i3/config"
 alias cy3="python3 setup.py build_ext --inplace"
 alias kpy3="killall python3"
-alias kcd="kdeconnect-cli -d 11a416c43eab4711 --share"
 alias iv="xcalib -invert -alter"
 alias sn="shutdown now"
 alias ai="sudo apt install"
 alias rp="~/.config/polybar/launch.sh"
-alias hadoop="/home/vitrioil/Downloads/SW/Hadoop/hadoop-2.10.0/bin/hadoop"
