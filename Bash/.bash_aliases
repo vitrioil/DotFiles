@@ -30,3 +30,13 @@ alias iv="xcalib -invert -alter"
 alias sn="shutdown now"
 alias ai="sudo apt install"
 alias rp="~/.config/polybar/launch.sh"
+alias hadoop="~/Downloads/SW/Hadoop/hadoop-2.10.0/bin/hadoop"
+alias saa="sudo apt autoremove"
+alias corona="~/Desktop/Project/Python/covid_india/corona/corona.py"
+
+alias gs="git status"
+alias gaa="git add ."
+alias gm="git commit -m"
+
+alias lw="ls ~/Pictures/Wallpapers/"
+alias spotifyd=~/Downloads/Git/spotifyd/target/release/spotifyd
